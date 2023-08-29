@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Website</title>
+    <style>
+        /* Basic CSS styling */
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .recipe-card {
+            width: 300px;
+            border: 1px solid #ccc;
+            margin: 20px;
+            padding: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .recipe-title {
+            font-size: 20px;
+            font-weight: bold;
+        }
+        .recipe-description {
+            margin-top: 10px;
+            font-size: 16px;
+        }
+        .ingredients {
+            margin-top: 10px;
+            font-size: 14px;
+        }
+        .instructions {
+            margin-top: 10px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <div class="recipe-card">
+        <h2 class="recipe-title">Spaghetti Carbonara</h2>
+        <p class="recipe-description">A classic Italian pasta dish with eggs, cheese, and pancetta.</p>
+        <h3>Ingredients:</h3>
+        <ul class="ingredients">
+            <li>8 oz spaghetti</li>
+            <li>2 large eggs</li>
+            <li>1 cup grated Pecorino Romano cheese</li>
+            <li>2 oz pancetta</li>
+            <li>2 cloves garlic</li>
+            <li>Salt and black pepper to taste</li>
+        </ul>
+        <h3>Instructions:</h3>
+        <ol class="instructions">
+            <li>Cook the spaghetti according to package instructions.</li>
+            <li>In a bowl, whisk together eggs and grated cheese.</li>
+            <li>In a pan, sauté pancetta and garlic until crispy.</li>
+            <li>Combine cooked spaghetti, egg mixture, and pancetta. Toss until creamy.</li>
+            <li>Season with salt and black pepper. Serve hot.</li>
+        </ol>
+    </div>
+</body>
+</html>
